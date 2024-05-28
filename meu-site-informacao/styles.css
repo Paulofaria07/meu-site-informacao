@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #002ffff8;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #000000; /* Cor de fundo do <ul> */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    background-color: #b31a1a; /* Cor de fundo dos <li> */
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: blue; /* Cor do texto dos links */
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #e0e0e0; /* Cor de fundo dos links */
+}
+
+nav ul li a:hover {
+    background-color: #a4bdf1; /* Cor de fundo ao passar o mouse sobre os links */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #2845e9;
+    color: white;
+    text-align: center;
+    padding: 5px 0; /* Diminuiu o padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 08px; /* Diminuir o tamanho da fonte, se necessário */
+    min-height: 15px; /* Ajuste conforme necessário */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3a0ddd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para botões azuis */
+.btn-primary {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

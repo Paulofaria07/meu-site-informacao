@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Informação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Informação</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Início</h2>
+            <p>Esta é a página inicial do nosso site de informação. Aqui você encontrará as últimas notícias e atualizações.</p>
+            <button class="btn-primary">Saiba Mais</button>
+        </section>
+        
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Nosso site é dedicado a fornecer informações precisas e atualizadas sobre diversos tópicos.</p>
+            <button class="btn-primary">Leia Mais</button>
+        </section>
+        
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Site de Informação. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
